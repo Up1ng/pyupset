@@ -16,7 +16,7 @@
 <p align="center">
   <a href="#get-started">Get started</a> ·
   <a href="examples/quickstart.ipynb">Try the notebook</a> ·
-  <a href="docs/guide.md">User guide</a> ·
+  <a href="docs/USER_MANUAL.md">Step-by-step guide</a> ·
   <a href="https://github.com/Up1ng/pyupset/issues">Share an idea</a>
 </p>
 
@@ -76,8 +76,8 @@ fig.savefig("customer-overlap.png", dpi=300, bbox_inches="tight")
 fig.savefig("customer-overlap.pdf", bbox_inches="tight")
 ```
 
-For colors, sizing, and more examples, see the [user guide](docs/guide.md)
-or open the [quickstart notebook](examples/quickstart.ipynb).
+Follow the [step-by-step guide](docs/USER_MANUAL.md), explore the
+[full reference](docs/guide.md), or open the [quickstart notebook](examples/quickstart.ipynb).
 
 ## Build with us
 

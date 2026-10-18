@@ -100,7 +100,7 @@ def render(
             color=bar_colors or row_colors,
             zorder=3,
         )
-        intersections.set_xlim(0, float(data.sizes.max()) * 1.20)
+        intersections.set_xlim(0, float(max(data.sizes)) * 1.20)
         intersections.bar_label(bars, padding=5, fontsize=config.font_size, color=ink)
         intersections.set_xlabel("Intersection size", labelpad=8)
         intersections.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=4))

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">PyUpSet</title>
+  <desc id="desc">See where your data overlaps. Set intersection visualization for Python.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c1c34"/>
+      <stop offset="1" stop-color="#153e70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="83" fill="#81b9ff" font-size="24" font-weight="700" letter-spacing="4">PYUPSET</text>
+    <text x="64" y="155" fill="#fff" font-size="48" font-weight="700">See where your</text>
+    <text x="64" y="211" fill="#fff" font-size="48" font-weight="700">data overlaps.</text>
+    <text x="66" y="275" fill="#bed1e9" font-size="20">Your DataFrame. One clear picture.</text>
+  </g>
+  <g transform="translate(775 76)">
+    <rect x="-28" y="-26" width="380" height="240" rx="16" fill="#fff" opacity="0.045"/>
+    <g fill="#8badcf" opacity="0.24">
+      <circle cx="0" cy="0" r="10"/><circle cx="48" cy="0" r="10"/><circle cx="96" cy="0" r="10"/><circle cx="144" cy="0" r="10"/>
+      <circle cx="0" cy="54" r="10"/><circle cx="48" cy="54" r="10"/><circle cx="96" cy="54" r="10"/><circle cx="144" cy="54" r="10"/>
+      <circle cx="0" cy="108" r="10"/><circle cx="48" cy="108" r="10"/><circle cx="96" cy="108" r="10"/><circle cx="144" cy="108" r="10"/>
+      <circle cx="0" cy="162" r="10"/><circle cx="48" cy="162" r="10"/><circle cx="96" cy="162" r="10"/><circle cx="144" cy="162" r="10"/>
+    </g>
+    <g stroke="#77b4ff" stroke-width="4" stroke-linecap="round">
+      <path d="M0 0H144"/><path d="M0 54H96"/><path d="M48 108H144"/><path d="M0 162H48"/>
+    </g>
+    <g fill="#77b4ff">
+      <circle cx="0" cy="0" r="10"/><circle cx="48" cy="0" r="10"/><circle cx="96" cy="0" r="10"/><circle cx="144" cy="0" r="10"/>
+      <circle cx="0" cy="54" r="10"/><circle cx="96" cy="54" r="10"/>
+      <circle cx="48" cy="108" r="10"/><circle cx="144" cy="108" r="10"/>
+      <circle cx="0" cy="162" r="10"/><circle cx="48" cy="162" r="10"/>
+    </g>
+    <g fill="#77b4ff">
+      <rect x="185" y="-12" width="136" height="24" rx="3"/>
+      <rect x="185" y="42" width="103" height="24" rx="3" opacity="0.8"/>
+      <rect x="185" y="96" width="69" height="24" rx="3" opacity="0.65"/>
+      <rect x="185" y="150" width="38" height="24" rx="3" opacity="0.5"/>
+    </g>
+  </g>
+</svg>
